@@ -10,10 +10,10 @@ usage: $0 [options] command
 Options:
   -d  base directory
   -l  max directory level
+  -v  verbose output
 
 Commands:
   list  list Git repositories
-  list-dirty  list dirty Git repositories
 EOF
   exit 1
 }
